@@ -1,0 +1,159 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title> {% block title %}{% endblock title %} Apex college</title>
+  </head>
+  <body>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <div class="logohome"><a href="/" class="navbar-brand ">
+                  <img src="/static/logo.png" 
+                  alt="logo" width="150" class="logo-burger"></a></div>
+
+
+
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Inside Apex
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="/aboutus">About Us</a></li>
+                              <li><a class="dropdown-item" href="/acs">apex Carrer service</a></li>
+                              <li><a class="dropdown-item" href="/globalconnection">Global connection</a></li>
+                              <li><a class="dropdown-item" href="/student">Student's Experience</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Academics
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="/bcis-syllabus">BCIS</a></li>
+                              <li><a class="dropdown-item" href="/bba-syllabus">BBA</a></li>
+                              <li><a class="dropdown-item" href="/bba-bi-syllabus">BBA-BI</a></li>
+                              <li><a class="dropdown-item" href="/bba-tt-syllabus">BBA-TT</a></li>
+                              <li><a class="dropdown-item" href="/mba-syllabus">MBA</a></li>
+                              <li><a class="dropdown-item" href="/mba-evening-syllabus">MBA-Evening</a></li>
+                            </ul>
+                          </li>
+                        
+                      <li class="nav-item">
+                        <a class="nav-link" href="/newsandnotices">News and Notices</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/oc">Online Councelling</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Online Registration
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Master</a></li>
+                          <li><a class="dropdown-item" href="#">Bachelor</a></li>
+                        </ul>
+                      </li> 
+                    
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>        
+        
+
+  
+   {% block body %}{% endblock %}
+
+
+
+     
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+    <!-- Footer -->
+<footer class="wow fadeIn" style="animation-delay: 0.2s; visibility: visible; animation-name: fadeIn;">
+				<div class="container-fluid p-0" style="
+    background: #8b03042e;
+    box-shadow: 0px -9px 20px 1px #8b03041c;
+">
+
+					<div class="footer-content p-5">
+					<div class="row p-0 m-0">
+						<div class="col-md-2">
+							<h4>MAIN NAV:</h4>
+							<p></p><p><a href="/acs">About Us</a></p><p><a href="/acs">Alumni Update</a></p><p><a href="/">Team Apex</a></p>
+
+						</div>
+						<div class="col-md-2">
+							<h4>INFO FOR:</h4>
+							<p><a href="/newsandnotices">News and Notices</a></p><p><a href="/student">Students' Experience</a></p><p><a href="/acs">Apex Career Service</a></p>
+						</div>
+						<div class="col-md-2">
+							<h4>FIND:</h4>
+							<p><a href="">Download Links</a></p></div>
+						<div class="col-md-3">
+							<h4>SHORTCUT:</h4>
+							<p>Online Registration:<br> <a href="" target="_blank">Master</a> | <a href="" target="_blank">MBA Interview</a><br><a href="" target="_blank">Bachelor</a></p>
+                <p><a href="">Apex MIS</a></p>
+						</div>
+						<div class="col-md-3 m-0 p-0 text-center">
+							<div class="socialmedia m-0 p-0">
+								
+							
+			
+           <div class="col-md-3 m-0 p-0 text-center">
+							<div class="socialmedia m-0 p-0">
+								
+             <a href=""><span class="fab fa-facebook-f"></span></a>
+             </div>
+							<div class="logohome"><a href="/" class="navbar-brand "><img src="/static/logo.png" alt="logo" width="150" class="logo-burger"></a></div>
+
+
+						</div>
+						</div>
+						</div>
+						</div>
+					</div>
+
+        <div class="container" style= align:auto>
+        		<div class="footer-copyright pt-5" style="height:max-content; align:center">
+						<p class="p-0 m-0">© 2019 Apex College | 1261 Devkota Sadak Mid Baneshor,Kathmandu | 4478841,4467922</p>
+						<p class="p-0 m-0">apex@apexcollege.edu.np | admissions@apexcollege.edu.np </p>
+						<p class="m-0">P.O. Box No.: 19691</p>
+					</div>
+
+        </div>
+
+
+				</div>
+
+			</footer>
+  <!-- Footer -->
+
+</html>
